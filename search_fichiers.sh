@@ -7,6 +7,6 @@ echo "Bienvenue $USER, aujourdhui nous sommes le $jour"
 read -p "Quel repertoire voulez vous utiliser aujourd'hui ? " directory
 echo "Vous avez choisi le repertoire : $directory "
 
-#listing de tous le contenu du repertoire en question demandé precedemment
+#listing de tous le contenu du repertoire en question demandé precedemment et ajout d'un premier pattern fourni en parametre
 
-ls $directory
+ls $directory/$1
